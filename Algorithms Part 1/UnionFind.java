@@ -1,4 +1,3 @@
-package algorithms;
 public class UnionFind {
     private int  objects[];
     
@@ -14,7 +13,7 @@ public class UnionFind {
     public int count(){
         return 0;
     }
-    UnionFind(int N){
+    public UnionFind(int N){
         objects = new int[N];
         for (int i = 0; i < objects.length; i++) {
             objects[i]=i;

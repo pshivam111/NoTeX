@@ -1,14 +1,13 @@
-package algorithms;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-class Client {
+public class Client {
 
     public static void main(String[] args) {
+        System.out.println("hello");
         Scanner scan;
         try {
-            File file = new File("filename.txt");
+            File file = new File("data.txt");
             
             scan = new Scanner(file);
             int N=scan.nextInt();
